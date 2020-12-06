@@ -1,0 +1,46 @@
+#cuad-text {
+  background-color: #C0C0C0;
+  height: 1000px;
+  margin-left:5vw;
+  margin-right:5vw;
+  padding: 5px 30px 0 30px;
+}
+body {
+    font-family: 'Oxygen', sans-serif;
+
+  }
+.container {
+  -ms-flex-align: center;
+}
+
+.navbar-header{
+    background-color: white;
+}
+
+
+h5{
+   font-weight:  bold;
+}
+div#navbar-collapse.navbar-collapse.collapse.in{
+    background-color: grey;
+
+}
+.visible-xs{
+    color:#000000 ;
+}
+.title{
+    background-color: #C0C0C0;
+}
+.a visible-xs {
+  background-color: grey;
+}
+
+@media only screen and (max-width: 768px) {
+#cuad-text {
+    background-color: #C0C0C0;
+    height: 1000px;
+    margin-left:15vw;
+    margin-right:15vw;
+    padding: 5px 30px 0 30px;
+  }
+}
